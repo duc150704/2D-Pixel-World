@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: DeadGrass
   m_EditorClassIdentifier: 
   tileName: Stone
+  wallVariant: {fileID: 0}
   tileSprites:
   - {fileID: 21300000, guid: 6219f8376ae48f0439898ce71fc3fd43, type: 3}
   - {fileID: 21300000, guid: 9955e7a4ebb6c154385f1d2ce5b5f8df, type: 3}
   inBackground: 1
-  tileDrop: 0
+  tileDrop: {fileID: 11400000}
+  isStackable: 1
+  naturallyPlaced: 1

@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: SnowGrass
   m_EditorClassIdentifier: 
   tileName: 
+  wallVariant: {fileID: 0}
   tileSprites: []
   inBackground: 1
-  tileDrop: 0
+  tileDrop: {fileID: 11400000}
+  isStackable: 1
+  naturallyPlaced: 1

@@ -20,6 +20,7 @@ MonoBehaviour:
   tallGrass: {fileID: 11400000, guid: fbe171ede251e8d42b0b21eeef6f75f5, type: 2}
   snow: {fileID: 11400000, guid: 0e0def176e3789f4086ee311b195cdac, type: 2}
   sand: {fileID: 11400000, guid: ca61d19e582109148bb5b1d21fa75371, type: 2}
+  Bedrock: {fileID: 11400000, guid: 58a993456d355b84ea8c2f2c238f3d3b, type: 2}
   coal: {fileID: 11400000, guid: 4d4d525e522feba4bbf4fdd7430bd81d, type: 2}
   iron: {fileID: 11400000, guid: 3252e517740d01049a5e22ddcb2d7562, type: 2}
   gold: {fileID: 11400000, guid: 306847e9c41d70340aff90504c2d5b66, type: 2}

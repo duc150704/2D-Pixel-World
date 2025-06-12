@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class TileDropController : MonoBehaviour
 {
+    public ItemClass item;
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.CompareTag("Player"))
         {
             //them vao tui do
-            Destroy(this.gameObject);
+            if(col.GetComponent<Inventory>().Add(item))
+                Destroy(this.gameObject);
+            //Xoa
         }
     }
 }

@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: stone
   m_EditorClassIdentifier: 
   tileName: Stone
+  wallVariant: {fileID: 11400000, guid: 68f44a2ddb213b549b964377dc107d7e, type: 2}
   tileSprites:
   - {fileID: 21300000, guid: f27c59bf1cd918d4ab8c6058c61872b3, type: 3}
   - {fileID: 21300000, guid: fba90dc2f0effe24782baa95db9f80e1, type: 3}
   inBackground: 0
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 2
+  isStackable: 1
+  naturallyPlaced: 1
